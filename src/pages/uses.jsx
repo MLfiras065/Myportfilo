@@ -51,11 +51,19 @@ function Tool({ title, href, children }) {
 
 export default function Uses() {
   return (
+    <>
+     <Head>
+        <title>Firas Mlayeh | Contact</title>
+        <meta
+          name="description"
+         
+        />
+      </Head>
     <div className="flex justify-center items-center w-96 lg:mx-auto mt-20 border-zinc-100 p-6 dark:border-zinc-700/40 bg-white dark:bg-zinc-800 shadow-lg ">
     <form
       action="/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 bg-white dark:bg-zinc-800 shadow-lg"
-    >
+      >
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Contact us</span>
@@ -70,14 +78,14 @@ export default function Uses() {
           aria-label="Email address"
           required
           className="w-full appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-2 shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700 dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
-        />
+          />
         <input
           type="text"
           placeholder="Message"
           aria-label="Message"
           required
           className="w-full appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-2 shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700 dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
-        />
+          />
         <Button type="submit" className="w-full bg-teal-500 text-white hover:bg-teal-600 rounded-md py-2">
           Send
         </Button>
@@ -85,5 +93,6 @@ export default function Uses() {
     </form>
   </div>
   
+          </>
   )
 }

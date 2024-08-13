@@ -29,10 +29,10 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Firas Mlayeh | Events</title>
+        <title>Firas Mlayeh | Skills</title>
         <meta
           name="description"
-          content="I’ve spoken at events in my local community and been invited to some event talks."
+      
         />
       </Head>
       <SimpleLayout
@@ -46,7 +46,11 @@ export default function Speaking() {
               description="Good"
             />
             <Appearance 
-              title="React,Nextjs,React native,node.js,Express,JWT,Tailwind,mui"
+              title="React,
+              Nextjs,
+              React native,
+              node.js,Express,JWT,
+              Tailwind,mui"
               description="Good"
             />
             <Appearance 
@@ -69,6 +73,7 @@ export default function Speaking() {
             />
             <Appearance
               title="TeamWork"
+              // href=
             />
             <Appearance
               title="Adaptability"

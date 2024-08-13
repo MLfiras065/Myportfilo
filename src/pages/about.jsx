@@ -44,7 +44,7 @@ export default function About() {
         <title>Firas mlayeh | About</title>
         <meta
           name="description"
-          content="I’m Firas mlayeh . I live in Tataouine City, Tunisie."
+          content="I m Firas mlayeh . I live in Tataouine City, Tunisie."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
