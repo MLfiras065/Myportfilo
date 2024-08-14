@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from 'src/images/me (1).jpg'
+import portraitImage from '@/images/me (1).jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -44,7 +44,6 @@ export default function About() {
         <title>Firas Mlayeh | About</title>
         <meta
           name="description"
-          content="I'm Firas Mlayeh. I live in Tataouine City, Tunisia."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
